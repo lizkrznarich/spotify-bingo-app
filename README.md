@@ -30,6 +30,7 @@ This app takes a Spotify playlist and generates bingo cards for use in playing R
 
 1. Copy and paste your generated cards into a Google Doc
 2. Share the Doc with your friends
-3. Start a video call and play the Spotify playlist on shuffle
-4. Players drink beer (or other beverages of their choice) and fill in their card as songs are played
-5. When a player fills in a row, they should shout "Rock n roll!" and award themselves a prize of some sort (perhaps useless junk they've collected from Jordan's Big 10 Pub during real-life versions of this game). Other players take a drink.
+3. Players claim a card by adding their name next to the card number
+4. Start a video call and play the Spotify playlist on shuffle (works best if you play the music into a separate computer, preferably with a dedicated audio cable)
+5. Players drink beer (or other beverages of their choice) and fill in their card as songs are played
+6. When a player fills in a row, they should shout "Rock n roll!" and award themselves a prize of some sort (perhaps useless junk they've collected from Jordan's Big 10 Pub during real-life versions of this game). Other players take a drink.
