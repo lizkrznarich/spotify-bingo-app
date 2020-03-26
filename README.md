@@ -1,27 +1,33 @@
 # SpotifyApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
+This app takes a Spotify playlist and generates bingo cards for use in playing Rock n Roll bingo.
 
-## Development server
+## Prerequisites
+- Node.js
+- NPM
+- AngularCLI
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Dev setup
 
-## Code scaffolding
+1. Clone the project to your machine
+        git clone git@github.com:lizkrznarich/spotify-bingo-app.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Paste Spotify API token and playlist ID into [spotify.service.ts](https://github.com/lizkrznarich/spotify-bingo-app/blob/master/src/app/spotify/spotify.service.ts#L7). Works best with a playlist that has 20-50 songs.
 
-## Build
+3. Set the number of bingo cards to generate in [spotify.component.ts](https://github.com/lizkrznarich/spotify-bingo-app/blob/master/src/app/spotify/spotify.component.ts#L11)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+3. Move to project directory
+        cd spotify-bingo-app
+        
+3. Start dev server
+       ng-serve
 
-## Running unit tests
+4. Visit http://localhost:4200/ and click Generate cards
+  
+## Play the game!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Copy and paste your generated cards into a Google Doc
+2. Share the Doc with your friends
+3. Start a video call and play the Spotify playlist on shuffle
+4. Players drink beer (or other beverages of their choice) and fill in their card as songs are played
+5. When a player fills in a row, they should shout "Rock n roll!" and award themselves a prize of some sort (perhaps useless junk they've collected from Jordan's Big 10 Pub during real-life versions of this game). Other players take a drink.
