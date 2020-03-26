@@ -4,25 +4,25 @@ import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class SpotifyService {
+  TOKEN = '[YOUR SPOTIFY API TOKEN HERE]';
+  PLAYLIST_ID = '[YOUR PLAYLIST ID HERE]'; 
     
-    constructor(
-    private http: HttpClient,
-  ) {}
+  constructor( private http: HttpClient ) {}
+  
+  //TODO: ADD TOKEN GENERATION
+  getToken() {
+  
+  }
 
-    getToken() {
-    
-    }
-
-    //TODO: ADD TOKEN GENERATION
-    getPlaylist(): Observable<any>{
-        console.log("getting playlist");
-        return this.http
-          .get<any>(
-            'https://api.spotify.com/v1/playlists/5IIzbQFeR0yfDPh2IjyTLk/tracks',
-            {
-              headers: { Authorization: 'Bearer [PASTE SPOTIFY API TOKEN HERE]' }
-            }
-          );
-    }
+  getPlaylist(): Observable<any>{
+      console.log("getting playlist");
+      return this.http
+        .get<any>(
+          'https://api.spotify.com/v1/playlists/' + this.PLAYLIST_ID + '/tracks',
+          {
+            headers: { Authorization: "'Bearer " + this.TOKEN + "'" }
+          }
+        );
+  }
 
 }
