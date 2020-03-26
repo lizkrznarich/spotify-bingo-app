@@ -1,0 +1,18 @@
+table.card {
+    border-spacing: 0px;
+    border-collapse:collapse;  /* <--- add this so all the internal <td>s share adjacent borders  */
+    border:1px solid black;
+
+}
+
+.card tr {
+}
+
+.card td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-spacing: 0px;
+    border-collapse:collapse;  /* <--- add this so all the internal <td>s share adjacent borders  */
+    border:1px solid black;  /* <--- so the outside of the <th> don't get missed  */
+}
