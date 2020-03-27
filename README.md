@@ -1,13 +1,15 @@
 # SpotifyApp
 
-An Angular app takes a Spotify playlist and generates bingo cards for use in playing Rock n Roll bingo.
+An Angular app that uses the [Spotify API](https://developer.spotify.com/documentation/web-api/) to generate bingo cards from a Spotify playlist for use in playing Rock n Roll bingo.
 
 ## Prerequisites
 - Node.js
 - NPM
 - AngularCLI
 
-See Angular docs [Prerequisites](https://angular.io/guide/setup-local#prerequisites) and [Install the Angular CLI](https://angular.io/guide/setup-local#step-1-install-the-angular-cli) for instructions.
+See Angular docs [Prerequisites](https://angular.io/guide/setup-local#prerequisites) and [Install the Angular CLI](https://angular.io/guide/setup-local#step-1-install-the-angular-cli) for dev environment setup instructions.
+
+- Spotify API credentials(see [Register You App](https://developer.spotify.com/documentation/general/guides/app-settings/#register-your-app))
 
 ## Dev setup
 
@@ -30,7 +32,9 @@ See Angular docs [Prerequisites](https://angular.io/guide/setup-local#prerequisi
 4. Visit http://localhost:4200/ and click Generate cards
 ![Image of Yaktocat](https://github.com/lizkrznarich/spotify-bingo-app/blob/master/generate-cards.png)
 
-  
+## Resources
+[Spotify Playlists API Enpoint Reference](https://developer.spotify.com/documentation/web-api/reference/playlists/get-playlist/)
+
 ## Play the game!
 
 1. Copy and paste your generated cards into a Google Doc
