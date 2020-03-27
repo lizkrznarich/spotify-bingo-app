@@ -1,11 +1,13 @@
 # SpotifyApp
 
-This app takes a Spotify playlist and generates bingo cards for use in playing Rock n Roll bingo.
+An Angular app takes a Spotify playlist and generates bingo cards for use in playing Rock n Roll bingo.
 
 ## Prerequisites
 - Node.js
 - NPM
 - AngularCLI
+
+See Angular docs [Prerequisites](https://angular.io/guide/setup-local#prerequisites) and [Install the Angular CLI](https://angular.io/guide/setup-local#step-1-install-the-angular-cli) for instructions.
 
 ## Dev setup
 
