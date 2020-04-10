@@ -18,8 +18,10 @@ See Angular docs [Prerequisites](https://angular.io/guide/setup-local#prerequisi
         git clone git@github.com:lizkrznarich/spotify-bingo-app.git
 
 2. Paste Spotify API token and playlist ID into [spotify.service.ts](https://github.com/lizkrznarich/spotify-bingo-app/blob/master/src/app/spotify/spotify.service.ts#L7). Works best with a playlist that has 20-50 songs. [Generate a token for testing](https://developer.spotify.com/console/get-playlist/?playlist_id=59ZbFPES4DQwEjBpWHzrtC&market=&fields=) 
+[TODO: add token exchange to app]
 
 3. Set the number of bingo cards to generate in [spotify.component.ts](https://github.com/lizkrznarich/spotify-bingo-app/blob/master/src/app/spotify/spotify.component.ts#L11)
+[TODO: add form for card count and playlist ID to app]
 
 3. Move to project directory
         
