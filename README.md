@@ -29,7 +29,7 @@ See Angular docs [Prerequisites](https://angular.io/guide/setup-local#prerequisi
         
 3. Start dev server
        
-        ng-serve
+        ng serve
 
 4. Visit http://localhost:4200/ and click Generate cards
 ![Image of Yaktocat](https://github.com/lizkrznarich/spotify-bingo-app/blob/master/generate-cards.png)
