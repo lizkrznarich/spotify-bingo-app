@@ -1,4 +1,30 @@
-<button (click)="generateCards()">Generate cards</button>
+<form (ngSubmit)="generateCards()" #bingoForm="ngForm">
+      <div class="form-group">
+        <label for="token">Token</label>
+        <input type="text" class="form-control" id="token"
+               required
+               [(ngModel)]="model.token" name="token"
+               #token="ngModel">
+      </div>
+      <div class="form-group">
+        <label for="playlistId">Playlist ID</label>
+        <input type="text" class="form-control" id="playlistId"
+               required
+               [(ngModel)]="model.playlistId" name="playlistId"
+               #playlistId="ngModel">
+      </div>
+      <div class="form-group">
+        <label for="numCards">How many cards?</label>
+        <input type="text" class="form-control" id="numCards"
+               required
+               [(ngModel)]="model.numCards" name="numCards"
+               #numCards="ngModel">
+      </div>
+
+      <button type="submit" class="btn btn-success">Generate cards</button>
+      <button type="button" class="btn btn-default" (click)="bingoForm.reset()">Clear</button>
+    </form>
+
 <div *ngFor="let card of cards; index as i">
     <h2>Card {{i+1}}: [To claim, add your name here]</h2>
     <table class="card">
