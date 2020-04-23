@@ -1,4 +1,16 @@
 
+<p><b>How does this work?</b></p>
+<ol>
+  <li>Get yourself some Spotify API credentials(see Register You App)</li>
+  <li>Generate a token with playlist-read-collaborative scope using the <a href="https://developer.spotify.com/console/get-playlist/?playlist_id=59ZbFPES4DQwEjBpWHzrtC&user_id=spotify">Spotify testing app</a>. <i>Yup, it would be better if this step was part of this here app. I'll get to it soon.</i></li>
+  <li>Add the token, the playlist ID for a playlist that has 30-50 songs, the number of cards your'd like to generate below and click Generate cards.</li>
+  <li> Select all the cards, copy and paste into a Google Doc. They will magically appear formatted as tables in the doc, but you'll need to do a bit of cleanup to center the text and add page breaks between cards.</li>
+  <li>Share the Doc with your friends</li>
+  <li>Players claim a card by adding their name next to the card number</li>
+  <li>Start a video call and play the Spotify playlist on shuffle. Works well with Zoom, since Zoom allows sharing computer audio directly to the meeting. The host should use 1 device to play the audio and join the video call on another device in a separate room.</li>
+  <li>Players fill in their card as songs are played, while enjoying festive food and beverage.</li>
+  <li>When a player fills in a row, they should shout "Rock n roll!" and award themselves a prize of some sort (some kind of useless junk lying around the house).</li>
+</ol>
 <form (ngSubmit)="generateCards()" #bingoForm="ngForm">
     <div class="form-group">
     <label for="token">Token</label>
